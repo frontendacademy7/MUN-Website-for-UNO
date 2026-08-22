@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUN Section</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav>
+    <div class="brand">
+      <div class="mark"><span><img src="pngwing.com.png" alt="LOGO"></span></div>
+      <span class="name">BMUN </span>
+    </div>
+    <button class="navtoggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <div class="navlinks" id="navLinks">
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#media">Media Team</a>
+      <a href="#footer">Contact</a>
+      <a href="#register" class="cta">Register</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ============ 1. IMAGE SLIDER ============ -->
+<section id="gallery" class="slider" style="padding:0;">
+  <div class="slides" id="slides">
+    <!-- Each .frame div is a placeholder. Replace the background gradient with:
+         background:url('images/session-1.jpg') center/cover no-repeat;   -->
+    <div class="slide active">
+      <div class="frame"></div>
+      <div class="slide-content">
+        <div class="placard">
+          <span class="country">Session I · General Assembly</span>
+          <h3>Opening Ceremony</h3>
+        </div>
+        <p class="desc">Delegates from every class gathered for the first roll call — the session that started it all.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="frame"></div>
+      <div class="slide-content">
+        <div class="placard">
+          <span class="country">Session II · Security Council</span>
+          <h3>Crisis Committee</h3>
+        </div>
+        <p class="desc">Closed-door negotiations, unmoderated caucuses, and the year our resolutions actually passed.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="frame"></div>
+      <div class="slide-content">
+        <div class="placard">
+          <span class="country">Session III · Best Delegate</span>
+          <h3>Awards & Closing</h3>
+        </div>
+        <p class="desc">Gavels down, plaques handed out — the closing ceremony that every delegate remembers.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="frame"></div>
+      <div class="slide-content">
+        <div class="placard">
+          <span class="country">Session IV · Press Corps</span>
+          <h3>Behind the Cameras</h3>
+        </div>
+        <p class="desc">Our media team covering the floor live — photos, reports, and the daily bulletin.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="frame"></div>
+      <div class="slide-content">
+        <div class="placard">
+          <span class="country">Session V · Committee Photo</span>
+          <h3>The Full Delegation</h3>
+        </div>
+        <p class="desc">Every country represented, one class, one afternoon — the group photo we frame every year.</p>
+      </div>
+    </div>
+  </div>
+  <button class="slider-nav prev" id="prevBtn" aria-label="Previous slide">‹</button>
+  <button class="slider-nav next" id="nextBtn" aria-label="Next slide">›</button>
+  <div class="slider-dots" id="sliderDots"></div>
+</section>
+
+<!-- ============ 2. ABOUT ============ -->
+<section id="about" class="on-paper">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">About UNO</span>
+     <h2>One classroom, every country at the table.</h2>
+
+<p>
+    Model United Nations (MUN) is an educational simulation of the United Nations
+    where students represent different countries and discuss global issues.
+    It gives students the opportunity to experience international diplomacy,
+    debate important world problems, and find peaceful solutions through discussion.
+    In our MUN, every participant takes on the role of a delegate representing a country.
+    Delegates research their assigned country's policies, interests, and position on global issues.
+    They then participate in formal debates, negotiations, and collaborative discussions.
+    MUN helps students develop confidence, public speaking, leadership, and critical thinking skills.
+    It also teaches the importance of teamwork, respect, diplomacy, and understanding different perspectives.
+    Through this experience, students learn how the United Nations works and how countries cooperate.
+    Most importantly, MUN encourages young people to think globally and become responsible future leaders.
+</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>The section exists to give students a structured, competitive space to practice diplomacy: drafting
+          resolutions, forming blocs, defending a country's stance under real time pressure, and reaching consensus
+          with people who disagree with them.</p>
+        <p>It also runs like a real organisation. Every committee needs a chair to keep order, a secretariat to keep
+          it running, and delegates who've done the homework — which is exactly the structure below.</p>
+        <div class="stat-row">
+          <div class="stat"><b>05</b><span>Committees Run</span></div>
+          <div class="stat"><b>20+</b><span>Delegates / Year</span></div>
+          <div class="stat"><b>01</b><span>Session / Year</span></div>
+        </div>
+      </div>
+
+      <div class="roles-list reveal">
+        <div class="role-item">
+          <span class="role-tag"><img src="WhatsApp Image 2026-08-21 at 1.27.09 PM.jpeg" alt=""></span>
+          <div><h2>⇒Secretary-General</h2>
+            <h4 style="color: black; font-family:'Inter';">Honey Rajput</h4>
+            <p>Owns the session end to end — sets the committee agenda, signs off on
+            the country matrix, and has the final call on every procedural dispute.</p></div>
+        </div>
+        <div class="role-item">
+          <span class="role-tag"><img src="WhatsApp Image 2026-08-21 at 1.27.09 PM.jpeg" alt=""></span>
+          <div><h2>⇒Deputy Secretary-General</h2>
+            <h4 style="color: black; font-family:'Inter';">Hasnain Shah</h4>
+            <p>Runs logistics — venue, schedule, delegate Skits — so the
+            Secretary-General can focus on content and committees.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. MEDIA MANAGEMENT / SUPPORTERS ============ -->
+<section id="media">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Media Management</span>
+      <h2>The team that covers the floor.</h2>
+      <p>A conference nobody documents didn't happen. This team runs press coverage for the session — photos,
+        live updates, and the daily bulletin that goes out to every committee.</p>
+    </div>
+
+    <div class="media-grid reveal">
+      <div class="media-card">
+        <span class="num">01</span>
+        <h4>Photography</h4>
+        <p>Covers committee floors, caucuses, and the closing ceremony — the archive this gallery is built from.</p>
+      </div>
+      <div class="media-card">
+        <span class="num">02</span>
+        <h4>Social Media</h4>
+        <p>Runs the section's pages — session announcements, delegate highlights, and result posts after closing.</p>
+      </div>
+      <div class="media-card">
+        <span class="num">03</span>
+        <h4>Press Correspondents</h4>
+        <p>Interview delegates and chairs, and file the daily bulletin summarising each committee's progress.</p>
+      </div>
+      <div class="media-card">
+    <span class="num">04</span>
+    <h4>Registration Fee</h4>
+    <p>
+        Early Bird — Rs. 3,500<br>
+        Regular — Rs. 4,000<br><br>
+        Food Service - FREE
+    </p>
+</div>
+    </div>
+
+    <div class="badge-strip reveal">
+      <span class="badge">Accredited Press</span>
+      <span class="badge">Daily Bulletin</span>
+      <span class="badge">Photo Desk</span>
+      <span class="badge">Social Desk</span>
+      <span class="badge">Video Desk</span>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="on-paper" style="padding-top:56px;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Join the Section</span>
+      <h2>Apply for accreditation.</h2>
+      <p>Fill this in to register as a delegate, chair, or media team member for the next session. Seats are
+        assigned by committee, so tell us your preference and experience level.</p>
+    </div>
+
+    <div class="reg-wrap reveal">
+      <div class="reg-side">
+        <div>
+          <div class="placard">
+            <span class="country">Delegate Application</span>
+            <h3 style="color:var(--ink);font-size:18px;">UNO Society</h3>
+          </div>
+          <h3>How it works</h3>
+          <p>Applications are reviewed by the secretariat and matched to committees based on preference,
+            experience, and seats available.</p>
+        </div>
+        <div class="reg-steps">
+          <div class="step"><b>01</b> Submit the form with your details and preferred role.</div>
+          <div class="step"><b>02</b> Secretariat reviews applications and assigns committees.</div>
+          <div class="step"><b>03</b> You'll get your country/role and background guide by email.</div>
+        </div>
+      </div>
+
+      <form action="https://formspree.io/f/mkjwevnz" method="POST" class="reg-form" id="regForm">
+          <input type="hidden" name="access_key" value="b6351238-9b4d-4587-9c4b-2fc5b32aba3e">
+
+        <div class="field-row">
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+          <div class="field">
+            <label for="grade">Class / Grade</label>
+            <input type="text" id="grade" name="grade" placeholder="e.g. Grade 10" required>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Contact Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="role">Preferred Role</label>
+            <select id="role" name="role" required>
+              <option value="">Select one</option>
+              <option>Delegate</option>
+             
+            </select>
+          </div>
+          <div class="field">
+            <label for="experience">Experience Level</label>
+            <select id="experience" name="experience" required>
+              <option value="">Select one</option>
+              <option>First-time</option>
+              <option>1–2 sessions</option>
+              <option>3+ sessions</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Country Preference / Message (optional)</label>
+          <textarea id="message" name="message" placeholder="Any country or committee you'd like to be considered for"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit Application →</button>
+        <p class="form-note">This form is front-end only right now — connect it to email or a form service (e.g. Formspree, Google Forms) to receive real submissions.</p>
+        <div class="success-msg" id="successMsg">Application received — check your email for confirmation once the secretariat reviews it.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. FOOTER ============ -->
+<footer id="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <div class="mark"><span><img src="pngwing.com.png" alt="Logo"></span></div>
+          <span class="name">BMUN </span>
+        </div>
+        <p>Our school's annual Model United Nations section — one session a year, every country represented.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/btw_honeyhere/#" aria-label="Instagram"><img src="Capture.PNG" alt="instagram Logo">
+</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Section</h5>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#media">Media Team</a>
+      </div>
+      <div class="footer-col">
+        <h5>Get Involved</h5>
+        <a href="#register">Register as Delegate</a>
+        <a href="#register">Join Media Team</a>
+        <a href="#register">Become a Chair</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="https://mail.google.com/mail/u/0/#search/hr8071825%40gmail.com?compose=new">hr8071825@gmail.com
+</a>
+        <a href="#">Cantt road gharibabad  young Muslim Khatri welfare society</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span id="year"></span>
+      <span>Built by FRONTEND ACADEMY </span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
