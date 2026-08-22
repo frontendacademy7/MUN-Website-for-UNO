@@ -228,7 +228,7 @@ nav {
 }
 
 .slide:nth-child(5) .frame {
-    background-image: url("full delegate.png");
+    background-image: url("full-delegate.png");
 }
 
 .slide .frame::after {
